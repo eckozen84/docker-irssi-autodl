@@ -1,15 +1,15 @@
 FROM krautit/irssi
 LABEL maintainer="kraut.it <info@kraut.it>"
-ARG release=2.4.0
+ARG release=2.5.0
 
 USER root
 RUN set -x \
-  && apk --no-cache add \
+	&& apk --no-cache add \
 	perl-archive-zip \
 	perl-digest-sha1 \
 	perl-html-parser \
 	perl-json \
-  perl-net-ssleay \
+	perl-net-ssleay \
 	perl-xml-libxml
 
 USER user
