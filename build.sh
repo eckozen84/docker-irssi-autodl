@@ -2,8 +2,8 @@
 
 set -e
 
-release=${1-2.5.0}
-release_latest=2.5.0
+release=${1-2.6.0}
+release_latest=2.6.0
 
 docker build -t "krautit/irssi-autodl:${release}" .
 docker push "krautit/irssi-autodl:${release}"

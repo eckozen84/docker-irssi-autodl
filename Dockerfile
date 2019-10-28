@@ -1,6 +1,6 @@
 FROM krautit/irssi
 LABEL maintainer="kraut.it <info@kraut.it>"
-ARG release=2.5.0
+ARG release=2.6.0
 
 USER root
 RUN set -x \
